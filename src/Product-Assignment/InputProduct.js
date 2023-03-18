@@ -37,10 +37,10 @@ const InputProduct = (props) => {
                         <label>Select Brand</label>
                         <select className="brand-drop" onChange={(e) => handleInputChange(e, 'brand')} value={Product.brand}>
                             <option selected>Choose...</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
+                            <option>Hrx</option>
+                            <option>Reebook</option>
+                            <option>Campus</option>
+                            <option>Woodland</option>
                         </select>
                     </div>
                     <div className="label-flex date">
